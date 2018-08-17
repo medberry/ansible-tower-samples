@@ -5,5 +5,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: {{ hello_msg }}
+        msg: "{{ hello_msg }}"
 
